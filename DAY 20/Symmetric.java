@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Transpose {
+public class Symmetric {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.err.print("Enter the number of rows: ");
@@ -41,6 +41,27 @@ public class Transpose {
             }
             System.out.println();
         }
+        //SYMMETRIC MATRIX
+        int count = -1;
+        for (int i = 0; i < a; i++)
+        {
+            for (int j = 0; j < b; j++)
+            {
+                if (matrix[i][j] != transpose[i][j])
+                {
+                    count++;
+                    break;
+                }
+            }
+        }
+        if (count == -1)
+        {
+            System.out.println("Matrix are Symmetric");
+        }
+        else
+        {
+            System.out.println("Matrix are not Symmetric");
+        }
         input.close();
-    }    
+    }
 }

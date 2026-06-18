@@ -5,7 +5,7 @@ public class AddMat {
         // FOR FIRST MATRIX
         System.err.print("Enter the number of rows: ");
         int a = input.nextInt();
-        System.err.print("Enter the number of rows: ");
+        System.err.print("Enter the number of column: ");
         int b = input.nextInt();
         int matrix1[][] = new int[a][b];
         System.out.println("FIRST MATRIX ");

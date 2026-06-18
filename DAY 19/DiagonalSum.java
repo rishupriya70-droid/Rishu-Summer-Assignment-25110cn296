@@ -4,7 +4,7 @@ public class DiagonalSum {
         Scanner input = new Scanner(System.in);
         System.err.print("Enter the number of rows: ");
         int a = input.nextInt();
-        System.err.print("Enter the number of rows: ");
+        System.err.print("Enter the number of column: ");
         int b = input.nextInt();
         int matrix[][] = new int[a][b];
         System.out.println("MATRIX ");
