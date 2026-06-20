@@ -1,15 +1,17 @@
 import java.util.Scanner;
-public class RevStr {
+public class RemSpace {
     public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
        System.out.print("Enter the string: "); 
-       String str = input.next();
+       String str = input.nextLine();
        int len = str.length();
-       for (int i = len - 1; i >= 0; i--)
+       for ( int i =0; i < len; i++)
+       {
+        if (str.charAt(i) != ' ')
         {
             System.out.print(str.charAt(i));
-        } 
-        input.close();
-    }
-    
+        }
+       }
+       input.close();
+    }   
 }
