@@ -1,6 +1,6 @@
 // SUM OF FIRST N NATURAL NUMBERS 
 import java.util.Scanner;
-public class Sum {
+public class Sum1 {
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
